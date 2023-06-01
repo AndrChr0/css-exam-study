@@ -1,5 +1,10 @@
-div {
+li {
   background-color: red;
-  height: 100px;
+  height: 30px;
   width: 140px;
+  margin-bottom: 1vh;
+}
+
+li:nth-child(3n+1) {
+  background-color: blue;
 }/*# sourceMappingURL=sass1.css.map */
