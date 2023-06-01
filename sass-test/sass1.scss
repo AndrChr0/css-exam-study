@@ -1,0 +1,9 @@
+%extend__one {
+  background-color: red;
+  height: 100px;
+  width: 140px;
+}
+
+div {
+  @extend %extend__one;
+}
